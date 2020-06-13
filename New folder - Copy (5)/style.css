@@ -1,0 +1,39 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+button {
+  transition: 0.5s;
+  margin-inline-end: auto;
+  margin-left: 10px;
+}
+button:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+.biru-muda {
+  background-color: teal;
+}
+input {
+  transition: 0.2s;
+  margin-top: 2px;
+}
+input:hover {
+  transform: scale(1.2);
+}
+.kotak {
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+}
+.merah {
+  background-color: red;
+}
+.hijau {
+  background-color: lime;
+}
+.biru {
+  background-color: blue;
+}
