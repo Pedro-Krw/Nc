@@ -23,6 +23,8 @@ h5 {
   text-align: center;
 }
 .card {
+  text-align: center;
+  margin: 0px auto;
   transition: 0.3s;
   border-color: darkcyan;
 }
