@@ -2,8 +2,6 @@ html,
 body {
   width: 100%;
 }
-.navbar {
-}
 .judul h2,
 h5 {
   text-align: center;
@@ -11,7 +9,6 @@ h5 {
 
 .napi {
   margin-top: 20px;
-  display: inline;
   size: 12px;
 }
 .navbar {
@@ -73,6 +70,18 @@ hr {
 .gambar {
   text-align: center;
 }
-.coding {
+.codingku h5 {
+  margin: 0px auto;
+  text-align: center;
+}
+.kam {
+  text-align: center;
+  margin: 0px auto;
+}
+.kamu:hover {
+  filter: drop-shadow(5px 5px 5px darkcyan);
+}
+h6 {
+  text-align: center;
   margin: 0px auto;
 }
