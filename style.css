@@ -1,6 +1,7 @@
 html,
 body {
   width: 100%;
+  scroll-behavior: smooth;
 }
 .judul h2,
 h5 {
@@ -81,11 +82,16 @@ hr {
 .kamu:hover {
   filter: drop-shadow(5px 5px 5px darkcyan);
 }
-h6 {
+.java h6 {
   text-align: center;
   margin: 0px auto;
 }
 .insos {
   text-align: center;
   margin: 0px auto;
+}
+.jumbotron {
+  background-image: url(img/Ai.png);
+  background-attachment: fixed;
+  background-position: center;
 }

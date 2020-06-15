@@ -1,6 +1,6 @@
 const ganti = document.getElementById("tombol");
 ganti.addEventListener("click", function () {
-  document.body.style.backgroundColor = ["black"];
+  document.body.style.backgroundColor = "black";
 });
 
 const gantiSatu = document.getElementById("tombol1");
