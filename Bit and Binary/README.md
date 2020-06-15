@@ -88,4 +88,4 @@ Yaitu kecerdasan buatan yang mampu berpikir dan belajar seperti manusia dan stro
 3.Superinterlligence atau Kecerdasan Buatan Super
 Yaitu suatu kecerdasan buatan yang kecerdasanya melampaui kecerdasan manusia yang di mana kecerdasan buatan seperti ini akan membantu manusia contohnya dalam bidang ilmu pengetahuan
 
-"Tapi pada dasarnya semua kecerdasan buatan di atas di rancang oleh manusia sendiri yang dimana semua kecerdasan Buatan di atas memiliki ilmu dasar yaitu Pemrograman karena semua kecerdasan buatan di atas di bentuk dengan program program yang sangat kompleks
+"Tapi pada dasarnya semua kecerdasan buatan di atas di rancang oleh manusia sendiri yang dimana semua kecerdasan Buatan tersebut memiliki ilmu dasar yang sama yaitu Pemrograman karena semua kecerdasan buatan di bentuk dengan program program yang sangat kompleks.

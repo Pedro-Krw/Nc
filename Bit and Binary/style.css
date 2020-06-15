@@ -1,8 +1,7 @@
 html,
 body {
   width: 100%;
-}
-.navbar {
+  scroll-behavior: smooth;
 }
 .judul h2,
 h5 {
@@ -11,7 +10,6 @@ h5 {
 
 .napi {
   margin-top: 20px;
-  display: inline;
   size: 12px;
 }
 .navbar {
@@ -23,6 +21,8 @@ h5 {
   text-align: center;
 }
 .card {
+  text-align: center;
+  margin: 0px auto;
   transition: 0.3s;
   border-color: darkcyan;
 }
@@ -66,4 +66,32 @@ hr {
 }
 .nyaa {
   filter: drop-shadow(1px 1px 1px darkcyan);
+}
 
+.gambar {
+  text-align: center;
+}
+.codingku h5 {
+  margin: 0px auto;
+  text-align: center;
+}
+.kam {
+  text-align: center;
+  margin: 0px auto;
+}
+.kamu:hover {
+  filter: drop-shadow(5px 5px 5px darkcyan);
+}
+.java h6 {
+  text-align: center;
+  margin: 0px auto;
+}
+.insos {
+  text-align: center;
+  margin: 0px auto;
+}
+.jumbotron {
+  background-image: url(img/Ai.png);
+  background-attachment: fixed;
+  background-position: center;
+}
