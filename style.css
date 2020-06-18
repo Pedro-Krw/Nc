@@ -103,3 +103,7 @@ hr {
 .geser {
   background-color: black;
 }
+
+.torang:hover {
+  filter: drop-shadow(9px 9px 5px purple);
+}
