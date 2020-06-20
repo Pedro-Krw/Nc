@@ -92,16 +92,27 @@ hr {
   background-position: center;
 }
 
-#eneble {
-  position: absolute;
-  right: 2px;
-  cursor: pointer;
+.kami {
+  border: 1px solid blue;
+  color: blue;
 }
-#eneble:hover {
-  text-decoration: underline;
+.kami:hover {
+  background-color: purple;
+  color: white;
+}
+.geser {
+  background-color: black;
 }
 
-.dark-mode {
+.torang:hover {
+  filter: drop-shadow(9px 9px 5px purple);
+}
+.robot {
+  border-radius: 20px;
+  margin: 0px auto;
+}
+
+.warnaku {
   background-color: black;
-  color: white;
+  color: aliceblue;
 }
