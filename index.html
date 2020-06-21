@@ -22,7 +22,7 @@
   <body  id="satu">
     <nav class="navbar navbar-expand-lg navbar-light mb-5 fixed-top">
       <a class="navbar-brand font-italic" href="#"><strong>Napi'Coding</strong></a>
-      <button type="submit" id="angkasa" class="btn btn-outline-dark text-center mr-5 font-italic">Dark Mode</button>
+      <button type="submit" id="angkasa" class="btn btn-outline-dark text-center mr-5 font-italic btn-sm">Dark Mode</button>
       <button
         class="navbar-toggler"
         type="button"
@@ -100,7 +100,7 @@
       <div class="container">
       <div class="row">
         <div class="col-sm-6 mt-3">
-          <div class="card">
+          <div class="card" id="card">
             <div class="card-body">
               <h5 class="card-title nyaa">1.Program Komputer </h5>
               <h5 class="card-title nyaa">2.Bahasa Pemrograman </h5>
@@ -117,7 +117,14 @@
         </div>
       </div>
     </div>
-    
+    <!-- bagian loding -->
+    <div class="text-center" id="load">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+<!-- akhir bagian loading -->
+
     <div class="container">
       <div class="konten mt-5">
         <h5 class="jarak mt-5">PROGRAM KOMPUTER

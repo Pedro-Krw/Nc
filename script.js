@@ -31,6 +31,11 @@ angkasa.addEventListener("click", function () {
   document.body.classList.toggle("warnaku");
 });
 
+const loading = document.getElementById("load");
+window.addEventListener("load", function () {
+  loading.style.display = "none";
+});
+
 //akhir bagian dark mode
 
 // let body = document.querySelector("body");
