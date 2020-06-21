@@ -27,8 +27,12 @@ gantiEmpat.addEventListener("click", function () {
 
 // ini bagian dark mode
 const angkasa = document.getElementById("angkasa");
+const uni = document.querySelector("div .card");
+const uni2 = document.querySelector("div .dan");
 angkasa.addEventListener("click", function () {
   document.body.classList.toggle("warnaku");
+  uni.classList.toggle("warnaku");
+  angkasa.classList.toggle("uni");
 });
 
 const loading = document.getElementById("load");
