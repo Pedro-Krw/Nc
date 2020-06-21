@@ -1,7 +1,7 @@
 const satu = document.getElementById("satu");
 const ganti = document.getElementById("tombol");
 ganti.addEventListener("click", function () {
-  document.body.style.backgroundColor = "black";
+  document.body.style.backgroundColor = "darkcyan";
   satu.style.color = "white";
 });
 
@@ -30,6 +30,7 @@ const angkasa = document.getElementById("angkasa");
 angkasa.addEventListener("click", function () {
   document.body.classList.toggle("warnaku");
 });
+
 //akhir bagian dark mode
 
 // let body = document.querySelector("body");
