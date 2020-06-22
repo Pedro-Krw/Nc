@@ -24,7 +24,7 @@ gantiEmpat.addEventListener("click", function () {
   satu.style.color = "black";
 });
 
-// ini bagian dark mode
+// ini bagian tombol dark mode
 const angkasa = document.querySelector(".angkasa");
 const sa = document.querySelectorAll(".card");
 angkasa.addEventListener("click", function () {
