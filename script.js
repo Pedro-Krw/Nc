@@ -1,4 +1,3 @@
-const satu = document.getElementById("satu");
 const ganti = document.getElementById("tombol");
 ganti.addEventListener("click", function () {
   document.body.style.backgroundColor = "darkcyan";
@@ -26,21 +25,28 @@ gantiEmpat.addEventListener("click", function () {
 });
 
 // ini bagian dark mode
-const angkasa = document.getElementById("angkasa");
-const uni = document.querySelector("div .card");
-const uni2 = document.querySelector("div .dan");
+const angkasa = document.querySelector(".angkasa");
+const sa = document.querySelectorAll(".card");
 angkasa.addEventListener("click", function () {
   document.body.classList.toggle("warnaku");
-  uni.classList.toggle("warnaku");
-  angkasa.classList.toggle("uni");
+  // ini bagian card yang di looping dan di masukan warnaku
+  sa.forEach(function (pil) {
+    pil.classList.toggle("warnaku");
+    // ini akhirnya
+  });
 });
+//akhir bagian dark mode
 
 const loading = document.getElementById("load");
 window.addEventListener("load", function () {
   loading.style.display = "none";
 });
 
-//akhir bagian dark mode
+// const sa = document.querySelectorAll(".card");
+// sa.forEach(function (pil) {
+//   pil.style.backgroundColor = "black";
+//   pil.style.color = "white";
+// });
 
 // let body = document.querySelector("body");
 // let eneble = document.getElementById("eneble");
