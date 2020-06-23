@@ -1,6 +1,5 @@
 html,
 body {
-  width: 100%;
   scroll-behavior: smooth;
 }
 .judul h2,
@@ -119,3 +118,21 @@ hr {
 }
 
 /* Akhir manipulasi */
+
+/* ?ini bagian warna yang berinteraksi dengan user */
+.sade {
+  background-color: darkcyan;
+  color: aliceblue;
+}
+.sako {
+  background-color: blue;
+  color: aliceblue;
+}
+.green {
+  background-color: green;
+  color: black;
+}
+.red {
+  background-color: red;
+  color: black;
+}

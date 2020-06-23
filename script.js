@@ -24,16 +24,20 @@ gantiEmpat.addEventListener("click", function () {
   satu.style.color = "black";
 });
 
-// ini bagian tombol dark mode
+// ?ini bagian tombol dark mode dan mengunakan perulangan for dan forEach
 const angkasa = document.querySelector(".angkasa");
 const sa = document.querySelectorAll(".card");
 angkasa.addEventListener("click", function () {
   document.body.classList.toggle("warnaku");
   // ini bagian card yang di looping dan di masukan warnaku
-  sa.forEach(function (pil) {
-    pil.classList.toggle("warnaku");
-    // ini akhirnya
-  });
+  for (let i = 0; i < sa.length; i++) {
+    sa[i].classList.toggle("warnaku");
+  }
+
+  // !sa.forEach(function (pil) {
+  //  ! pil.classList.toggle("warnaku");
+  // !ini akhirnya
+  // !});
 });
 //akhir bagian dark mode
 
