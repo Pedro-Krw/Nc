@@ -120,13 +120,13 @@ hr {
 /* Akhir manipulasi */
 
 /* ?ini bagian warna yang berinteraksi dengan user */
-.sade {
+.darkcyan {
   background-color: darkcyan;
   color: aliceblue;
 }
-.sako {
+.blue {
   background-color: blue;
-  color: aliceblue;
+  color: black;
 }
 .green {
   background-color: green;
@@ -134,5 +134,9 @@ hr {
 }
 .red {
   background-color: red;
+  color: black;
+}
+.none {
+  background-color: yellow;
   color: black;
 }
